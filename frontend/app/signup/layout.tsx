@@ -1,12 +1,10 @@
-import { Separator } from "@/components/ui/separator";
 import Header from "./_components/Header";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
+    <div className="flex h-dvh w-dvw flex-col items-center justify-between text-sm">
       <Header />
-      <Separator />
-      <div>{children}</div>
+      <div className="mx-10 mt-20 flex-1">{children}</div>
     </div>
   );
 }
