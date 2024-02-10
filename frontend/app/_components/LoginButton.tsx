@@ -18,14 +18,17 @@ export default function LoginButton() {
     }
   };
   useEffect(() => {
-    console.log(data?.user?.name);
+    // console.log(data?.user?.name);
     if (data) {
       router.push("/friend");
     }
   }, [data?.user]);
 
   return (
-    <button onClick={handleLogin} className="h-8 w-56 rounded-sm bg-yellow-300">
+    <button
+      onClick={handleLogin}
+      className="h-[33px] w-[222px] rounded-sm bg-yellow-300"
+    >
       <div className="flex items-center">
         <Image
           src={kakao}

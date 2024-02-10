@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logoImg from "../../public/logo.svg";
+import logoImg from "../../public/logoImg.svg";
 import LoginButton from "../_components/LoginButton";
 export default function Home() {
   return (
