@@ -29,7 +29,7 @@ export default function UnivSelectArea() {
           <SelectItem value="system">교환 경험</SelectItem>
         </SelectContent>
       </Select>
-      <button className="size-fit rounded-lg bg-[#94D8DD] hover:bg-[#94D8DD]/70">
+      <button className="size-fit rounded-lg bg-blue-400 hover:bg-blue-500">
         <FaRegTrashCan className="m-2 size-3 text-xs text-white" />
       </button>
     </div>
