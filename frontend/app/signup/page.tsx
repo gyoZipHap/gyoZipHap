@@ -11,7 +11,6 @@ export default function Signup() {
       <NationField />
       <UnivField />
       <AuthField />
-
       <Button className="w-full bg-blue-400 font-bold hover:bg-blue-500">
         정보 입력완료
       </Button>
