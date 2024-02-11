@@ -11,7 +11,7 @@ import { IoIosSearch } from "react-icons/io";
 
 export default function SearchBar() {
   return (
-    <div className="flex w-full justify-between">
+    <div className="flex w-full justify-stretch">
       <Select>
         <SelectTrigger className="h-[34px] w-20 border-2 border-blue-400 bg-neutral-50 text-[10px]">
           <SelectValue placeholder="국가" />
