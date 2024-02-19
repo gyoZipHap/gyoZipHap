@@ -1,4 +1,3 @@
 export default function Trade() {
-    return <div>Trade</div>;
-  }
-  
+  return <div>Trade</div>;
+}
