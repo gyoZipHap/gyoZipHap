@@ -9,7 +9,7 @@ export function FooterToggle({
 }) {
   return (
     <div className="m-1 grid h-[39px] w-20 cursor-pointer grid-rows-2 place-items-center rounded-lg pt-1 hover:bg-blue-300">
-      <Image src={source} alt="logo" width={20} height={20} color="white" />
+      <Image src={source} alt="logo" width={20} height={20} />
       <span className="text-[10px] font-medium">{title}</span>
     </div>
   );
