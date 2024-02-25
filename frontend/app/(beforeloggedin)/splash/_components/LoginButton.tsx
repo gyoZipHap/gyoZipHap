@@ -10,11 +10,11 @@ export default function LoginButton() {
   const router = useRouter();
   const { data } = useSession();
 
-  useEffect(() => {
-    if (data) {
-      router.push("/");
-    }
-  }, [data?.user]);
+  // useEffect(() => {
+  //   if (data) {
+  //     router.push("/");
+  //   }
+  // }, [data?.user]);
 
   return (
     <button
@@ -32,7 +32,7 @@ export default function LoginButton() {
           className="mx-4"
         />
         <span className="font-xs font-bold">3초</span>
-        <span className="font-xs">만에 카카오톡 로그인!!</span>
+        <span className="font-xs">만에 카카오톡 로그인</span>
       </div>
     </button>
   );
