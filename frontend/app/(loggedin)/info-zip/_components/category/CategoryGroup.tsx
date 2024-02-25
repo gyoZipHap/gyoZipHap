@@ -1,17 +1,24 @@
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-
-export function CategoryGroup() {
+import { CategoryItem } from './CategoryItem';
+export default function CategoryGroup() {
   return (
     <ToggleGroup type='multiple' variant='outline'>
-      <ToggleGroupItem value='bold' aria-label='Toggle bold'>
-        a
+      <CategoryItem category='전체' />
+      {/* <ToggleGroupItem value='전체' aria-label='전체'>
+        전체
       </ToggleGroupItem>
-      <ToggleGroupItem value='italic' aria-label='Toggle italic'>
-        b
+      <ToggleGroupItem value='비자' aria-label='비자'>
+        비자 발급
       </ToggleGroupItem>
-      <ToggleGroupItem value='strikethrough' aria-label='Toggle strikethrough'>
-        c
+      <ToggleGroupItem value='준비물' aria-label='준비물'>
+        필수 준비물
       </ToggleGroupItem>
+      <ToggleGroupItem value='기숙사' aria-label='기숙사'>
+        기숙사/집
+      </ToggleGroupItem>
+      <ToggleGroupItem value='기타' aria-label='기타'>
+        기타
+      </ToggleGroupItem> */}
     </ToggleGroup>
   );
 }
