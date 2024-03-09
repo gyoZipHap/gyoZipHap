@@ -1,0 +1,114 @@
+{
+  "posts": [
+    {
+      "postId": 1,
+      "country": "영국",
+      "category": "필수 준비물",
+      "title": "영국 교환학생 준비물 리스트업",
+      "author": "goeunP",
+      "univ": "Leeds University",
+      "date": "24.01.12",
+      "comment": 20,
+      "like": 300
+    },
+    {
+      "postId": 2,
+      "country": "캐나다",
+      "category": "비자 발급",
+      "title": "캐나다 비자 발급 방법",
+      "author": "관리자",
+      "univ": "Toronto University",
+      "date": "24.01.15",
+      "comment": 25,
+      "like": 100
+    },
+    {
+      "postId": 3,
+      "country": "미국",
+      "category": "기숙사/집",
+      "title": "미국 UNCG 기숙사 특징",
+      "author": "hyer2",
+      "univ": "University of North Carolina at Greensboro",
+      "date": "24.01.20",
+      "comment": 50,
+      "like": 400
+    },
+    {
+      "postId": 4,
+      "country": "영국",
+      "category": "필수 준비물",
+      "title": "영국 교환학생 준비물 리스트업",
+      "author": "goeunP",
+      "univ": "Leeds University",
+      "date": "24.01.12",
+      "comment": 20,
+      "like": 300
+    },
+    {
+      "postId": 5,
+      "country": "캐나다",
+      "category": "비자 발급",
+      "title": "캐나다 비자 발급 방법",
+      "author": "관리자",
+      "univ": "Toronto University",
+      "date": "24.01.15",
+      "comment": 25,
+      "like": 100
+    },
+    {
+      "postId": 6,
+      "country": "미국",
+      "category": "기숙사/집",
+      "title": "미국 UNCG 기숙사 특징",
+      "author": "hyer2",
+      "univ": "University of North Carolina at Greensboro",
+      "date": "24.01.20",
+      "comment": 50,
+      "like": 400
+    },
+    {
+      "postId": 7,
+      "country": "영국",
+      "category": "필수 준비물",
+      "title": "영국 교환학생 준비물 리스트업",
+      "author": "goeunP",
+      "univ": "Leeds University",
+      "date": "24.01.12",
+      "comment": 20,
+      "like": 300
+    },
+    {
+      "postId": 8,
+      "country": "캐나다",
+      "category": "비자 발급",
+      "title": "캐나다 비자 발급 방법",
+      "author": "관리자",
+      "univ": "Toronto University",
+      "date": "24.01.15",
+      "comment": 25,
+      "like": 100
+    },
+    {
+      "postId": 9,
+      "country": "미국",
+      "category": "기숙사/집",
+      "title": "미국 UNCG 기숙사 특징",
+      "author": "hyer2",
+      "univ": "University of North Carolina at Greensboro",
+      "date": "24.01.20",
+      "comment": 50,
+      "like": 400
+    },
+    {
+      "postId": 10,
+      "country": "미국",
+      "category": "기타",
+      "title": "미국 UNCG 기숙사 특징",
+      "author": "hyer2",
+      "univ": "University of North Carolina at Greensboro",
+      "date": "24.01.20",
+      "comment": 50,
+      "like": 400
+    }
+  ]
+}
