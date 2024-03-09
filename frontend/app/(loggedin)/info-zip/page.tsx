@@ -1,3 +1,4 @@
+
 'use client';
 
 import SearchBar from './_components/searchBar/SearchBar';
@@ -20,4 +21,4 @@ export default function InfoZip() {
       </div>
     </div>
   );
-}
+  }
