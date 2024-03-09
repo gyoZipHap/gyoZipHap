@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import newPost from '../../../../../public/newPost.svg';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 
@@ -15,7 +14,7 @@ export default function NewPostButton() {
         variant='default'
         size='icon'
       >
-        <Image src={newPost} alt='newPostBtn' />
+        <Image src='/newPost.svg' alt='newPostBtn' width={20} height={20} />
       </Button>
     </div>
   );

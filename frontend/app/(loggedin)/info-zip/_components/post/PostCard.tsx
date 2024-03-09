@@ -6,10 +6,6 @@ import {
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import Image from 'next/image';
-import userImg from '@/public/users.svg';
-import univImg from '@/public/univ.svg';
-import commentImg from '@/public/comment.svg';
-import likeImg from '@/public/like.svg';
 
 type PostCardProps = {
   country: string;
@@ -97,17 +93,29 @@ export default function PostCard({
         </CardContent>
         <CardFooter className='items-cetner flex flex-row justify-between p-0 text-start'>
           <div className='flex flex-row items-start gap-1'>
-            <Image className='mt-1' src={userImg} alt='userImg' />
+            <Image
+              className='mt-1'
+              src='/users.svg'
+              width={10}
+              height={10}
+              alt='userImg'
+            />
             <PostCardDetail>{author}</PostCardDetail>
-            <Image className='mt-1' src={univImg} alt='univImg' />
+            <Image
+              className='mt-1'
+              src='/univ.svg'
+              width={10}
+              height={10}
+              alt='univImg'
+            />
             <PostCardDetail>
               <div className='w-[138px]'>{univ}</div>
             </PostCardDetail>{' '}
           </div>
           <div className='flex flex-row gap-1'>
-            <Image src={commentImg} alt='commentImg' />
+            <Image src='comment.svg' width={10} height={10} alt='commentImg' />
             <PostCardDetail>{comment}</PostCardDetail>
-            <Image src={likeImg} alt='likeImg' />
+            <Image src='/like.svg' alt='likeImg' width={10} height={10} />
             <PostCardDetail>{like}</PostCardDetail>
           </div>
         </CardFooter>
