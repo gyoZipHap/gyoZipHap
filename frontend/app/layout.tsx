@@ -1,5 +1,11 @@
+
 import { Noto_Sans_KR } from 'next/font/google';
-import type { Metadata } from 'next';
+import { Session } from "inspector";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import SessionWrapper from "./(root)/splash/_components/SessionWrapper";
+
 
 import './globals.css';
 const notoSans = Noto_Sans_KR({
@@ -20,8 +26,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
-      <body className={notoSans.className}>{children}</body>
-    </html>
+
+    <SessionWrapper>
+      <html lang="en">
+        <body className={notoSans.className}>{children}</body>
+      </html>
+    </SessionWrapper>
+
   );
 }
