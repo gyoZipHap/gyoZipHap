@@ -1,4 +1,3 @@
-
 'use client';
 
 import SearchBar from './_components/searchBar/SearchBar';
@@ -11,14 +10,14 @@ export default function InfoZip() {
   const [filtered, setFiltered] = useState('전체');
   return (
     <div className=''>
-      <div className='fixed top-[73px] overflow-hidden bg-white'>
+      <div className='fixed top-[45px] overflow-hidden bg-white'>
         <SearchBar />
         <CategoryGroup setFiltered={setFiltered} filtered={filtered} />
       </div>
-      <div className='flex w-full flex-row-reverse overflow-hidden pt-[110px]'>
-        <PostList filtered={filtered}/>
+      <div className='flex w-full flex-row-reverse overflow-hidden pt-[80px]'>
+        <PostList filtered={filtered} />
         <NewPostButton />
       </div>
     </div>
   );
-  }
+}

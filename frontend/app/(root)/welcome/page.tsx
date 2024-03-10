@@ -9,12 +9,12 @@ export default function Welcome() {
     <div>
       <Image
         className="contrast-70 z-0 h-dvh w-dvw brightness-110"
-        src={backgroundImg}
+        src="/welcome_background.svg"
         alt="backgroundImg"
         fill
       ></Image>
       <div className="relative z-10 flex flex-col items-center gap-5">
-        <Image src={logoImg} width={134} height={69} alt="LogoImg" />
+        <Image src="/logoImg.svg" width={134} height={69} alt="LogoImg" />
         <WelcomeMessage>에 오신 걸</WelcomeMessage>
         <WelcomeMessage>환영합니다!</WelcomeMessage>
         <WelcomeButton />
